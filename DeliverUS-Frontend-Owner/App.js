@@ -11,7 +11,7 @@ export default function App () {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-      <Tab.Screen
+        <Tab.Screen
           name="Restaurants"
           component={RestaurantsStack} />
         <Tab.Screen
